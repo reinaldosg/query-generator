@@ -1,1 +1,0 @@
-INSERT INTO "MS_QUESTION_TYPE" ("id", "name") VALUES ('1', 'Multiple Choice'), ('2', 'Fill in the Blank'), ('3', 'Drag and Drop'), ('4', 'Equation'), ('5', 'Narrative Text'), ('6', 'Fill in the Table'), ('7', 'Drag and Drop (no edit)'), ('8', 'Drag and Drop with Sorting'), ('9', 'Multiple Choice (no edit)'), ('10', 'Multiple Choice with Sorting')
