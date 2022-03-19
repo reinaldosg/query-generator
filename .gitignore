@@ -1,0 +1,16 @@
+# Node
+node_modules/
+
+bin/example
+environment/database.js
+# Packages Lock Json
+package-lock.json
+
+# OS auto-generated files
+.DS_Store
+._*
+
+.history
+
+.env
+.vscode
