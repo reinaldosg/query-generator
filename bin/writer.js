@@ -3,7 +3,7 @@ const moment = require("moment");
 
 
 function writeToSql(destination, tablename, query) {
-    let timestamp = moment(new Date()).format("ddmmyyyyhhmmss");
+    let timestamp = moment(new Date()).format("DDMMyyyyhhmmss");
     let outputFile = `${destination}/${tablename}${timestamp}.sql`;
     createFolderIfNotExist(destination);
     fs.writeFile(outputFile, query, function (err) {
